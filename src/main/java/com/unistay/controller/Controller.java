@@ -66,20 +66,17 @@ public class Controller {
 
     private void caricaDatiDiEsempio() {
         Host matteo = new Host(1, "Matteo", "Reggio", "matteo@example.com", "1234", "", "Host dimostrativo");
-        Host domenico = new Host(1, "Domenico", "Russo", "domenico@example.com", "1234", "", "Host dimostrativo");
         Guest angelo = new Guest(2, "Angelo", "Perrotti", "angelo@example.com", "1234", "");
 
         Listing listing1 = new Listing(1, "Camera vicino all'università", "Camera singola per studenti", "Via Roma 12", "Napoli", 350.0, 1, 1, matteo);
         Listing listing2 = new Listing(2, "Bilocale zona centro", "Piccolo appartamento per fuori sede", "Via Toledo 45", "Napoli", 520.0, 2, 2, domenico);
 
         utenti.add(matteo);
-        utenti.add(domenico);
         utenti.add(angelo);
 
         annunci.add(listing1);
         annunci.add(listing2);
 
         matteo.aggiungiAnnuncio(listing1);
-        domenico.aggiungiAnnuncio(listing2);
     }
 }
