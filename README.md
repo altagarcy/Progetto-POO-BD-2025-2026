@@ -89,26 +89,7 @@ Il progetto include:
 - Maven
 - Visual Paradigm
 - GitHub
-
----
-
-# 🚧 Stato Attuale del Progetto
-
-Questa versione rappresenta il secondo homework del progetto.
-
-Sono stati implementati:
-- separazione architetturale dei package;
-- prime schermate GUI;
-- interazione GUI → Controller → Model.
-
-Non sono ancora presenti:
-- database;
-- persistenza dei dati;
-- JDBC;
-- DAO.
-
-Questi elementi verranno introdotti nelle fasi successive del progetto.
-
+  
 ---
 
 # 👥 Team
