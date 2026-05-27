@@ -8,7 +8,6 @@ UniStay è una piattaforma di prenotazione di alloggi pensata principalmente per
 Il progetto è stato sviluppato da:
 - Angelo Perrotti
 - Matteo Reggio
-- Domenico Russo
 
 L’obiettivo del progetto è quello di modellare un sistema realistico di gestione degli alloggi, mantenendo un’architettura software chiara, organizzata e facilmente estendibile.
 
